@@ -1,0 +1,58 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header{
+    text-align: center;
+    padding: 2rem;
+    font-size:x-large;
+    background-color:coral;
+    color: white;
+}
+
+#score-board{
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+
+#score-heading{
+    text-align: center;
+
+}
+
+#score-count{
+    text-align: center;
+    margin: 50px auto;
+}
+
+
+
+#moves {
+    display: flex;
+    justify-content: center;
+    gap: 50px; 
+    margin: 50px;
+
+      
+}
+
+img{
+    max-width: 250px;
+    max-height: 250px;
+        
+}
+
+.icons:hover{
+    cursor: pointer;
+    background-color:coral;
+    border-radius: 40%;
+}
+
+#showmoves{
+    text-align: center;
+}
+
+.user-tags {
+    font-size: small;
+}
